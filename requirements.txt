@@ -1,0 +1,7 @@
+mysql-connector-python==8.0.31
+mysqlclient==2.1.1
+sqlalchemy==1.4.29; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
+web3==5.31.3
+moralis==0.1.19
+python-dotenv==0.20.0
+
