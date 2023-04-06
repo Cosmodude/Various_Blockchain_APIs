@@ -8,7 +8,7 @@ import json
 
 load_dotenv()
 
-api_key = os.environ.get('Moralis_API_key')
+api_key = os.environ.get('Moralis_API_KEY')
 ### topic?????
 params = {
     "address": "0x6CC462bc49ceCFE943Bc4F477b23b92906e6074F", 

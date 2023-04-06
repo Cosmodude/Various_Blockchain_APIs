@@ -4,7 +4,7 @@ load_dotenv()
 import os
 
 DappRadar_URL = "https://api.dappradar.com/4tsxo4vuhotaojtl/dapps"
-X_BLOBR_KEY= os.environ.get("DappRadar_KEY")
+X_BLOBR_KEY= os.environ.get("DappRadar_API_KEY")
 
 ### Returns the list of chains supported by DappRadar
 def get_supported_chains():
