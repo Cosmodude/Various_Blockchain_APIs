@@ -65,11 +65,10 @@ for ublock in unique_blocks:
         if(NFT_tx["transaction_hash"] in hashes):
             if (NFT_tx["token_address"]==DG_Token.lower()):
                 i=hashes.index(NFT_tx["transaction_hash"])
-                hashes.remove(NFT_tx["transaction_hash"])
-                print(i)
-                txs_number+=1
                 earnings+=(float(to_transactions[i]["value"])/10e18)
-                
+                del hashes[i]
+                del to_transactions[i]
+                txs_number+=1
 
 
 print(earnings)
