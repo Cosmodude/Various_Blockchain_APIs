@@ -1,3 +1,5 @@
+## https://docs.etherscan.io/
+## https://web.postman.co/workspace/My-Workspace~57c562ac-672a-46a7-801b-e3c460375cc7/request/24552765-c566c2d6-91d0-4d28-8b41-435cf8fa4c33
 from dotenv import load_dotenv
 load_dotenv()
 import os
@@ -12,7 +14,7 @@ supernormal='0x130bd65a7401c053015fbd143798b298874e3785'
 ## Bloor Pool Token: 0x0000000000a39bb272e79075ade125fd351887ac
 DG_Token= '0x48Be0965618ED7B65E577487e1f74f12aca74ef7'
 ## ETH Token:
-
+## multiple token transfers tx: 0xab9875572bd672c02a2d4ee00f6d9e20d3d4fffbc04e71ee72901ce8adf392f0
 
 
 
