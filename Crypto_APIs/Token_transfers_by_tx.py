@@ -24,7 +24,7 @@ headers=headers,
 params=querystring 
 )
 
-result = conn.getresponse()
+result = connection.getresponse()
 data = result.read()
 
 print(data.decode("utf-8"))
